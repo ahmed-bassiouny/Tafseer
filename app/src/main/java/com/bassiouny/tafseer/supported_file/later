@@ -1,0 +1,31 @@
+//        viewModel.fetchData(item.index).observeForever {
+//             it?.let(::AyaAdapter)?.run { recycler.adapter = this }
+//
+//            val c = 7
+//
+//            val s = c.let {
+//                val b = it.toString()
+//            }
+//
+//            val b = c.run { toString() }
+//
+//            val d = c.apply {
+//                toString()
+//            }
+//
+//            val f = c.also {
+////                it = it + 5
+//            }
+//
+//
+//
+//
+//        }
+
+
+let => return result , it
+run => return result , this
+
+also => return same object , it
+apply => return same object , this
+
